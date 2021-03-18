@@ -1,0 +1,206 @@
+/*--------------------------------------------------------------------*/
+footer{
+    display: block;
+}
+
+.footer-edit{
+    
+    width: 100%;
+    height: 100%;
+    padding: 256px 0 80px 0;
+    background: $black;
+}
+.footer-image-position{
+    
+ 
+    padding: 0 !important;
+    display: grid;
+    grid-template-columns: 184px 160px 1fr;
+    justify-items: flex-end;
+    grid-row-gap: 32px;
+    grid-column-gap: 40px;
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+.svgfinal{
+    
+    justify-self: flex-start;
+}
+
+.footer-ul{
+    
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    grid-area: 1 / 3;
+}
+li:not(:last-child) {
+    margin-right: 24px;
+}
+.footer-ul li a{
+    
+    font-size: 14px;
+    line-height: 16px;
+    color: $text;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+}
+
+.footer-ul2{
+    
+        display: grid;
+        grid-template-columns: repeat(4, 40px);
+        grid-auto-flow: column;
+        grid-gap: 8px;
+        justify-self: flex-start;
+        grid-area: 2 /1;
+        padding-bottom: 50px;
+    
+}
+.footer-ul2 li{
+    
+    background: $shape;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.footer-ul2 li a{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.footer-ul2 li a svg {
+
+    
+    width: 18px;
+    height: 18px;
+    color: $primary;
+}
+.footer-link{
+    
+    color: $primary-hover;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    grid-area: 2 / 2;
+}
+.footer-link2{
+    
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    max-width: 170px;
+    grid-area: 2 / 3;
+}
+.footer-link2 p{
+    
+    font-size: 14px;
+    line-height: 24px;
+    color: $green;
+}
+button{
+    
+    appearance: auto;
+    
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    border-radius: 2px;
+}
+.footer-but1{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: $shape;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+}
+.footer-but1 span{
+    
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+.footer-but1 svg{  
+    color: #8257e6;
+    width: 18px;
+    height: 18px;
+}

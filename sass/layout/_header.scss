@@ -1,0 +1,59 @@
+/*Header *******/
+header {
+    display: flex;
+    justify-content: space-between;
+    //border: 2px solid red;
+    align-items: center;
+    padding: 50px;
+    padding-top: 30px;
+    padding-left: 104px;
+}
+.soon{
+    display: flex;
+    align-items: center;
+ 
+
+}  
+
+
+.soon img {
+        padding-right: 30px;
+}
+
+
+.soon .a-edit{
+            padding-top: 20px ;
+            text-decoration: none;
+            color: $support;
+            font-size: 16px;
+
+.soon a:hover{
+            text-decoration: underline;
+}     
+}
+.button-edit{
+    display: flex;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: $primary;
+    width: 100%;
+    border-radius: 5px;
+    padding: 12px 32px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    max-width: 118px;
+
+    
+}
+  .button1{
+    display: flex;
+    padding-right:  80px;
+}
+
